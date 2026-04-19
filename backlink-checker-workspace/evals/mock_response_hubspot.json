@@ -1,0 +1,78 @@
+{
+  "tasks": [
+    {
+      "id": "04191126-mock-hubspot",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2100 sec.",
+      "cost": 0.02003,
+      "result_count": 1,
+      "path": ["v3", "backlinks", "summary", "live"],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "https://www.hubspot.com/",
+        "backlinks_status_type": "live",
+        "include_subdomains": true,
+        "exclude_internal_backlinks": true,
+        "include_indirect_links": true,
+        "rank_scale": "one_hundred"
+      },
+      "result": [
+        {
+          "target": "https://www.hubspot.com/",
+          "first_seen": "2012-04-20 08:30:00 +00:00",
+          "lost_date": null,
+          "rank": 87,
+          "backlinks": 4820000,
+          "backlinks_spam_score": 11,
+          "crawled_pages": 42800,
+          "info": {
+            "server": "cloudfront",
+            "cms": "hubspot",
+            "platform_type": "saas",
+            "ip_address": "99.84.122.100",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 180000,
+          "external_links_count": 95000,
+          "broken_backlinks": 12400,
+          "broken_pages": 3200,
+          "referring_domains": 148000,
+          "referring_domains_nofollow": 22000,
+          "referring_main_domains": 145000,
+          "referring_main_domains_nofollow": 21000,
+          "referring_ips": 118000,
+          "referring_subnets": 95000,
+          "referring_pages": 4820000,
+          "referring_pages_nofollow": 780000,
+          "referring_links_tld": {
+            "com": 82000, "org": 18000, "net": 12000, "io": 9000,
+            "co": 7000, "edu": 4200, "gov": 1100, "de": 3800,
+            "uk": 5200, "fr": 2100
+          },
+          "referring_links_types": {
+            "anchor": 3900000, "image": 620000, "redirect": 300000
+          },
+          "referring_links_attributes": {
+            "nofollow": 780000, "sponsored": 42000, "ugc": 95000,
+            "noopener": 420000, "noreferrer": 380000
+          },
+          "referring_links_platform_types": {
+            "blogs": 640000, "cms": 520000, "news": 280000,
+            "organization": 190000, "unknown": 3190000
+          },
+          "referring_links_semantic_locations": {
+            "article": 1200000, "main": 980000, "": 2640000
+          },
+          "referring_links_countries": {
+            "US": 2100000, "": 1400000, "GB": 320000,
+            "DE": 280000, "IN": 240000
+          }
+        }
+      ]
+    }
+  ]
+}

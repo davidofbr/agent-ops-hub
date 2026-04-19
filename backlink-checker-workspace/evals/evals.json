@@ -1,0 +1,23 @@
+{
+  "skill_name": "backlink-checker",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Can you check the backlinks for faberandfriends.de? I want to know how strong our link profile is before we pitch a new client on link building.",
+      "expected_output": "A Markdown backlink report with summary table (rank, backlinks, referring domains, spam score), a quality assessment paragraph, and actionable next steps. Should call the DataForSEO API or use the mock response file if provided.",
+      "files": ["mock_response.json"]
+    },
+    {
+      "id": 1,
+      "prompt": "I'm doing competitor research for a client in the B2B SaaS space. Can you pull the backlink profile for https://www.hubspot.com/ and tell me what their link building strategy looks like based on the data?",
+      "expected_output": "A backlink report for hubspot.com with the standard summary table plus interpretation of platform types and TLD distribution that reveals something about their link-building approach. Spam score and nofollow analysis included.",
+      "files": ["mock_response_hubspot.json"]
+    },
+    {
+      "id": 2,
+      "prompt": "who links to ahrefs.com? curious about the spam score and how many referring domains they have",
+      "expected_output": "Casual but complete backlink report for ahrefs.com. Should correctly interpret a low spam score and high referring domains as a healthy profile. Conversational trigger phrasing ('who links to') should still activate the skill.",
+      "files": ["mock_response_ahrefs.json"]
+    }
+  ]
+}
