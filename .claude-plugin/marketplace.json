@@ -1,0 +1,17 @@
+{
+  "name": "agent-ops-hub",
+  "owner": {
+    "name": "David Faber"
+  },
+  "plugins": [
+    {
+      "name": "seo",
+      "source": "./plugins/seo",
+      "description": "SEO and AEO skills for Claude Code, built for B2B content operations.",
+      "version": "0.1.0",
+      "author": { "name": "David Faber" },
+      "category": "marketing",
+      "keywords": ["seo", "aeo", "content-ops", "keyword-research", "serp-analysis", "dataforseo", "agentic-seo"]
+    }
+  ]
+}

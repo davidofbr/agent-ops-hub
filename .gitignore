@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Claude Code local state (per-user, not repo-owned)
+.claude/settings.local.json
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Node/Python if tooling lands later
+node_modules/
+__pycache__/
+*.pyc
+
+# Working folders (never publish)
+/exports/
+/outputs/
+/data/

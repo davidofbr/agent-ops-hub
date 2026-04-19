@@ -1,0 +1,7 @@
+{
+  "name": "seo",
+  "version": "0.1.0",
+  "description": "SEO and AEO skills for Claude Code, built for B2B content operations.",
+  "author": { "name": "David Faber" },
+  "homepage": "https://github.com/davidofbr/agent-ops-hub"
+}
