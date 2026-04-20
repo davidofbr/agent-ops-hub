@@ -1,7 +1,7 @@
 ---
 name: init-brand-context
 description: >
-  URL-first scaffolder for the Faber & Friends hub. Bootstraps four context
+  URL-first scaffolder for a client brand-context hub. Bootstraps four context
   artifacts at the root of a client repo: `company.md` (5-field API-safe
   contract), `competitors.json` (structured, nullable quant fields),
   `icp.md` (segment-level targeting), `personas.md` (buyer archetypes
